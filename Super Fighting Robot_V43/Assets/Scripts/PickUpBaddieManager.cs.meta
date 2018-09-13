@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 457e1ef78e56def4094384b9f6811bda
+timeCreated: 1481680312
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - lifePickUp: {fileID: 1000012328632584, guid: 13f501dc3ae8d084e96ffb78b5950c4f,
+      type: 2}
+  - eTankPickUp: {fileID: 1000010118331234, guid: a76b1ec9f6d1f114796c37092fb3384f,
+      type: 2}
+  - bigHealth: {fileID: 1000012084324520, guid: e067a31a22c7fc343b0448c7fe6c437a,
+      type: 2}
+  - smallHealth: {fileID: 1000011038137540, guid: b5bb83e707a8fa1489fac303144ce290,
+      type: 2}
+  - bigAmmo: {fileID: 1000010019041686, guid: 50a75ab1dcd440642897c2aeda3dbd35, type: 2}
+  - smallAmmo: {fileID: 1000010674469104, guid: 4ebc509dd11f9554381410b953a2345f,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

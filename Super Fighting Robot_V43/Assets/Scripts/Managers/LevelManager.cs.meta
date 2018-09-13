@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d73c7b14694a54d48aa6343502f75c53
+timeCreated: 1480624164
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - rend: {instanceID: 0}
+  - healthManager: {fileID: 114000011910074224, guid: ce11e3bc1bd7f4349b4c2ced9108b8d8,
+      type: 2}
+  - currentCheckpoint: {instanceID: 0}
+  - deathParticle: {fileID: 1000013863820934, guid: 121c4e32a86d9664595cf754c0d18568,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

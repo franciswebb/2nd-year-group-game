@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1461FA1C-3EB5-4DEA-04FD-BE696DD89E46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\OnEnterTest.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\BossEnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\DamagePlayerOnContact.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\DestroyOverTime.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\DestroyParticles.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\EnemyHealthMid.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\EnemyPatrol.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\EnemyShotController.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\ShootPlayerInRange.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\Spawner.cs" />
+     <Compile Include="Assets\Scripts\Baddies-damage\SwordHurtEnemy.cs" />
+     <Compile Include="Assets\Scripts\BossDoorParentController.cs" />
+     <Compile Include="Assets\Scripts\BossManagmentScript.cs" />
+     <Compile Include="Assets\Scripts\Chris Attempt new stuff\AudioSourcesInSceneCheck.cs" />
+     <Compile Include="Assets\Scripts\ChrisDamageContact.cs" />
+     <Compile Include="Assets\Scripts\DestroyObject.cs" />
+     <Compile Include="Assets\Scripts\Final Level\AnimationPlatControl.cs" />
+     <Compile Include="Assets\Scripts\Final Level\Boss\BossController.cs" />
+     <Compile Include="Assets\Scripts\Final Level\Boss\BossPatrolMan.cs" />
+     <Compile Include="Assets\Scripts\Final Level\Boss\FinalBossHealthCheck.cs" />
+     <Compile Include="Assets\Scripts\Final Level\Boss\FishMiniBossHealthCheck.cs" />
+     <Compile Include="Assets\Scripts\Final Level\FollowFlyer.cs" />
+     <Compile Include="Assets\Scripts\Final Level\NewPlayerInBossRoom.cs" />
+     <Compile Include="Assets\Scripts\Final Level\PlayingList.cs" />
+     <Compile Include="Assets\Scripts\Final Level\SmallWalkingDudeSpeedyControl.cs" />
+     <Compile Include="Assets\Scripts\Final Level\SwitchCamera.cs" />
+     <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\Managers\EnergyTankManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\LevelLoaderCloudCheck.cs" />
+     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\LifeManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\MegaCloud.cs" />
+     <Compile Include="Assets\Scripts\Managers\MegaCloudCheck.cs" />
+     <Compile Include="Assets\Scripts\Menu - Level Select\LevelSelectController.cs" />
+     <Compile Include="Assets\Scripts\Menu - Level Select\LevelSelectSwitchMoveMM.cs" />
+     <Compile Include="Assets\Scripts\Menu - Level Select\Menu.cs" />
+     <Compile Include="Assets\Scripts\Menu - Level Select\NewLevelSelectMoverControllerBetter.cs" />
+     <Compile Include="Assets\Scripts\Menu - Level Select\TestLSMover.cs" />
+     <Compile Include="Assets\Scripts\Music\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Music\AudioManagerCheck.cs" />
+     <Compile Include="Assets\Scripts\Music\SwitchMusicOnLoad.cs" />
+     <Compile Include="Assets\Scripts\Music\SwitchMusicTrigger.cs" />
+     <Compile Include="Assets\Scripts\Objects - Platforms etc\CrumbleFloor.cs" />
+     <Compile Include="Assets\Scripts\Objects - Platforms etc\Item1Float.cs" />
+     <Compile Include="Assets\Scripts\Objects - Platforms etc\LadderExitTop.cs" />
+     <Compile Include="Assets\Scripts\Objects - Platforms etc\LadderZone.cs" />
+     <Compile Include="Assets\Scripts\Objects - Platforms etc\MovingPlatformMotor2D.cs" />
+     <Compile Include="Assets\Scripts\Objects - Platforms etc\PlatformTurner.cs" />
+     <Compile Include="Assets\Scripts\Objects - Platforms etc\movingPlatformController.cs" />
+     <Compile Include="Assets\Scripts\PickUpBaddieManager.cs" />
+     <Compile Include="Assets\Scripts\PickUps\Robbies\EnergyPickup.cs" />
+     <Compile Include="Assets\Scripts\PickUps\Robbies\HealthPickup.cs" />
+     <Compile Include="Assets\Scripts\PickUps\Robbies\LifePickup.cs" />
+     <Compile Include="Assets\Scripts\PickUps\ammopickup.cs" />
+     <Compile Include="Assets\Scripts\Player\GroundCheck.cs" />
+     <Compile Include="Assets\Scripts\Player\HealthManager.cs" />
+     <Compile Include="Assets\Scripts\Player\KillPlayer.cs" />
+     <Compile Include="Assets\Scripts\Player\MegaShotController.cs" />
+     <Compile Include="Assets\Scripts\Player\MegaShotController1.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerGravJump.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerJumpNow.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerJumpTake3.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement2.cs" />
+     <Compile Include="Assets\Scripts\Tut\BarrelMon.cs" />
+     <Compile Include="Assets\Scripts\Tut\BossBall.cs" />
+     <Compile Include="Assets\Scripts\Tut\CheckPlayerInRange.cs" />
+     <Compile Include="Assets\Scripts\Tut\FlixX.cs" />
+     <Compile Include="Assets\Scripts\Tut\FlyingBaddie.cs" />
+     <Compile Include="Assets\Scripts\Tut\FlyingBossParentTeleportFix.cs" />
+     <Compile Include="Assets\Scripts\Tut\PlayerInBossRoom.cs" />
+     <Compile Include="Assets\Scripts\Tut\RandomFromRange.cs" />
+     <Compile Include="Assets\Scripts\Tut\TUTBoss.cs" />
+     <Compile Include="Assets\Scripts\UI\HealthSliderManager.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\fireSlider.cs" />
+     <Compile Include="Assets\Scripts\UI\grassSlider.cs" />
+     <Compile Include="Assets\Scripts\UI\waterSlider.cs" />
+     <Compile Include="Assets\Scripts\Water\BossScripts\BossMusicSwitch.cs" />
+     <Compile Include="Assets\Scripts\Water\BossScripts\MarioShootPlayer.cs" />
+     <Compile Include="Assets\Scripts\Water\BossScripts\SuperMarioBossManager.cs" />
+     <Compile Include="Assets\Scripts\Water\BossScripts\waterBossHealthCheck.cs" />
+     <Compile Include="Assets\Scripts\Water\LargeWhaleManager.cs" />
+     <Compile Include="Assets\Scripts\Water\MusicMan.cs" />
+     <Compile Include="Assets\Scripts\Water\WaterPhysics.cs" />
+     <Compile Include="Assets\Scripts\Woods\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\Woods\PlayerInBossRoomWood.cs" />
+     <Compile Include="Assets\Scripts\Woods\WoodBoss2.cs" />
+     <Compile Include="Assets\Scripts\Woods\WoodsBoss.cs" />
+     <Compile Include="Assets\Scripts\Woods\woodBossHealth.cs" />
+     <Compile Include="Assets\Scripts\fire\BossFightRoom.cs" />
+     <Compile Include="Assets\Scripts\fire\bossHealthCheck.cs" />
+     <Compile Include="Assets\Scripts\fire\bosskill.cs" />
+     <Compile Include="Assets\Scripts\fire\fireBossFight.cs" />
+     <Compile Include="Assets\Scripts\fire\fireBossShootWeapon.cs" />
+     <Compile Include="Assets\Scripts\fire\fireBossShot.cs" />
+     <Compile Include="Assets\Scripts\fire\fireBossShotExplode.cs" />
+     <Compile Include="Assets\Scripts\fire\firebossLava.cs" />
+     <Compile Include="Assets\Scripts\fire\movePlatform.cs" />
+     <Compile Include="Assets\Scripts\flyingEnemyToFollow.cs" />
+     <Compile Include="Assets\Scripts\testCollidersAsVars.cs" />
+     <Compile Include="Assets\Scripts\weapons\ExplodeRocket.cs" />
+     <Compile Include="Assets\Scripts\weapons\ExplodeRocketOverTime.cs" />
+     <Compile Include="Assets\Scripts\weapons\Rocket.cs" />
+     <Compile Include="Assets\Scripts\weapons\WaterShotgun.cs" />
+     <Compile Include="Assets\Scripts\weapons\weaponAmmo.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

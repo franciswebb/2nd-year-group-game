@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ae85e2dbfb1200e4c8dc790e94810154
+timeCreated: 1481677816
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - cloudToMake: {fileID: 1000014058149798, guid: 220de67f311ec214aac53d0f1eebb486,
+      type: 2}
+  executionOrder: -80
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
